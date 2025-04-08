@@ -6,21 +6,21 @@ __pycache__/
 *.spec
 
 # Virtual env
-env/
-venv/
+.env/
+.venv/
 
 # IDEs
 .vscode/
 .idea/
 
 # PyInstaller
-build/
-dist/
+.build/
+.dist/
 *.spec
 
 # Mac/Linux/Windows junk
 .DS_Store
-Thumbs.db
+.Thumbs.db
 
 # Log files
 *.log
