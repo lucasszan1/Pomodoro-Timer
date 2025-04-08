@@ -6,23 +6,15 @@ __pycache__/
 *.spec
 
 # Virtual env
-.env/
-.venv/
 venv/
-venv
-
+build/
+dist/
 
 # IDEs
 .vscode/
 .idea/
 
 # PyInstaller
-build/
-dist/
-dist
-build
-.build/
-.dist/
 *.spec
 
 # Mac/Linux/Windows junk
