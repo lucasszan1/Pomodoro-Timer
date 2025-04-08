@@ -1,6 +1,4 @@
-from PySide6.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout)
-from PySide6.QtCore import Qt
-
+from PySide6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout)
 class MainWindow(QMainWindow):
     def __init__(self,):
         super().__init__()
@@ -16,14 +14,10 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Pomodoro Timer")
 
         # Ajuste do tamanho da janela
-        self.setFixedSize(500, 600)
+        self.showMaximized()
 
         #css
-        self.setStyleSheet("""
-            background-color: #404040;
-
-        
-""")
+        self.setStyleSheet("background-color: #404040;")
 
     def addWidgetToVlayout(self, widget:QWidget):
         self.v_layout.addWidget(widget)
